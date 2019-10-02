@@ -40,6 +40,6 @@ def retrieve_last_element_from_array['rokhaya','shahid','fama','mouhamed']
 end
 
 def update_element_from_index['rokhaya','shahid','fama','mouhamed']
-  update
-
+  update_element_from_index[-1]='Dame'
+  p update_element_from_index
 end
